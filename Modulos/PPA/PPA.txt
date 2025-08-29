@@ -1,0 +1,68 @@
+Estrutura do PPA
+
+ppa
+	id int (pk)
+	cliente_id int (fk clientes)
+	exercicio_base int (fk exercicios)
+	indice1 decimal(5,2)
+	indice2 decimal(5,2)
+	indice3 decimal(5,2)
+	indece4 decimal(5,2)
+	created_by int 
+    created_at  timestamp 
+    updated_at  timestamp
+	
+	
+financiamentos
+	id int (pk)
+	ppa_id int (fk ppa)
+	unidade_orcamento_id int (fk unidades_orcamentarias)
+	receita_orcamentaria_id int (fk receitas_orcamentarias)
+	valor_referencia decimal(15,2)
+	valor1 decimal(15,2)
+	valor2 decimal(15,2)
+	valor3 decimal(15,2)
+	valor4 decimal(15,2)
+	created_by int 
+    created_at  timestamp 
+    updated_at  timestamp
+
+acoesppa
+	id int (pk)
+	ppa_id int (fk ppa)
+	tipo char(1)
+	numero varchar(3)
+	nome varchar(255)
+	descricao text
+	orcamento_tipo_id int (fk orcamento_tipos)
+	natureza_acao varchar(15) {Continuada, Temporária}  
+	região varchar(20)
+	uo_id int (fk unidades_orcamentarias)
+	funcao_id int (fk funcoes)
+	subfuncao_id int (fk subfuncoes)
+	programa_id int (fk programas)
+	cliente_id int (fk clientes)
+	created_by int 
+	created_at  timestamp 
+	updated_at  timestamp
+	
+metas
+	id int (pk)
+	acaoppa_id int (fk acoesppa)
+	fonte_recurso_id int (fk fontes_recursos)
+	unidade varchar (10)
+	quantidade1 int
+	valor1 decimal(15,2)
+	quantidade2 int
+	valor2 decimal(15,2)
+	quantidade3 int
+	valor3 decimal(15,2)
+    quantidade4 int
+	valor4 decimal(15,2)
+	created_by int 
+	created_at  timestamp 
+	updated_at  timestamp
+	
+	
+	
+	
