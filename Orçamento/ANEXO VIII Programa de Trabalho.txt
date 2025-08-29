@@ -1,0 +1,5 @@
+Task 1243
+
+- Demonstrativo de Funções, Subfunções e Programas Conforme o Vinculo de Recurso na linha abaixo de Anexo VIII.
+- As colunas ordinário, vinculado e total alinhar à direita e suas larguras semelhantes. - ok
+- Tipo de orçamento Seguridade Social não está incluindo a função 99 associado ao orçamento da seguridade social. Será necessário melhoria na ação.

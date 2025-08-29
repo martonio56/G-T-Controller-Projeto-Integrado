@@ -1,0 +1,4 @@
+Task 1185
+1) Cabeçalho do Relatório: Orçamento Programa para 2025 e não RECEITA SEGUNDO AS CATEGORIAS ECONÔMICAS 2025.-> ok
+2) Nome do Relatório: Receita Segundo as Categorias Econômicas. -> ok
+3) Filtro do tipo de orçamento.

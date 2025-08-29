@@ -1,0 +1,6 @@
+Task 1244
+
+- Na última folha, após reserva de contigência, colocar uma coluna com total do Órgão e no final da última folha o total dos órgãos. -ok
+- A largura das colunas sejam de tamanho semelhantes. - ok
+
+- Tipo de orçamento Seguridade Social não está incluindo a função 99 associado ao orçamento da seguridade social. Será necessário melhoria na ação. 

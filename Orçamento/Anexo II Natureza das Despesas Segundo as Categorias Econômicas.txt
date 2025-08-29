@@ -1,0 +1,9 @@
+Task 1206
+O elemento 33903900 apresenta dois valores na mesma fonte de recursos. Isso acontece por o elemento citado aparecer em duas ações distintas. 
+Neste caso, os valores devem somar em uma fonte de recurso. 
+Exemplo: 1500000000  1.200.000,00
+
+As colunas Fonte, Elemento, Grupo de Despesa e Categoria Econômica sua larguras sejam uniformes dando mais espaços para Especificações.
+
+As colunas de valor sejam alinhada à direita.
+

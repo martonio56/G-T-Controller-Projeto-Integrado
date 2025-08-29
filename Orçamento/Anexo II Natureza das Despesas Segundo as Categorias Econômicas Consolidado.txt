@@ -1,0 +1,7 @@
+Task 1238
+
+- Falta filtro por tipo de orçamento.
+- Os valores não conresponde aos dados lançados no orçamento.
+- Largura das colunas fonte, Elemento, Grupo de Despesa, Categoria Econômica sejam uniforme e os valores alinhar à direita.
+- Fonte de Recurso concatenar com o grupo da fonte.
+- Remover '-' das colunas sem dados.

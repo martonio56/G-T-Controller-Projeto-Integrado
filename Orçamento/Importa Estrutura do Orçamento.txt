@@ -1,0 +1,44 @@
+
+IMPORTA ESTRUTURA DO ORÇAMENTO
+
+Criar estrutura para o exercício: 2026
+
+ * Órgãos
+
+ * Unidade Orçamentária
+
+ * Ações 
+ 
+ * Despesa Fixada
+ 
+    * Projetar Execução?
+	  Mês de Referência: _____  Exemplo: Julho
+		
+	Percentual de correção: 25%
+
+
+Notas
+  A estrutura a ser importada será baseada na estrutura do exercício anterior. Exemplo: 2026 em 2025.
+  
+  Menu de Configuração.
+  
+  * = toggle
+  
+  Se marcar Unidade Orçamentária, marcar Órgãos;
+  
+  Se marcar Ações, marcar Órgãos, Unidade Orçamentária;
+  
+  Se marcar Despesa Fixada, marcar Órgãos, Unidade Orçamentária, Ações;
+  
+  Se marcar Projetar Execusão, solicitar o Mês de Referência. 
+     O cálculo da projeção: Valor da execusão até o mês de referência, 
+	 dividido pelo número de meses executados, multiplicado por 12.
+     Exemplo: Valor = 70,00 
+	          Mês de referência: Julho
+			  Valor projetado = (70,00 / 7) * 12 = 120,00
+ 
+     Se não for marcado, será utilizado o valor do orçamento vigente.
+	 
+	 
+  
+  

@@ -1,0 +1,14 @@
+Task 1240
+
+- Cabeçalho
+         ORÇAMENTO PROGRAMA PARA 2025
+        PREFEITURA MUNICIPAL DE VICOSA DO CEARÁ
+  RUA SILVA JARDIM - VIÇOSA DO CEARÁ CE - CNPJ: 10.462.497/0001-1
+
+- Tipo de Orçamento
+     Orçamento Geral
+    (Em R$ 1,00)
+
+     Colocar acima da linha do nome do relatório e orgão e UO ficam mais próximos do dados.
+	 
+- Tipo de orçamento Seguridade Social não está incluindo a função 99 associado ao orçamento da seguridade social. Será necessário melhoria na ação.

@@ -1,0 +1,9 @@
+Task 1084
+Módulo Orçamento/Estrutura/Ações:
+A reserva de contingência dentro de um fundo de previdência municipal 
+pode ser parte do orçamento da seguridade social. A reserva de contingência
+é um mecanismo para cobrir imprevistos e despesas adicionais dentro do orçamento, 
+e pode, portanto, ser utilizada para fins previdenciários, que são um componente 
+fundamental da seguridade social.
+
+A sugestão é quando a função for '99' RESERVA DE CONTINGÊNCIA  de um ação, se possa escolher o tipo de orçamento para esta ação.

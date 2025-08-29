@@ -1,0 +1,21 @@
+Revisão Orçamento
+
+ANEXO I - RECEITAS e DESPESAS SEGUNDO AS CATEGORIAS ECONÔMICAS
+	- Resumo
+		1 Receita Corrente
+		2 Receita de CApital
+		9 Deduções
+		
+
+     - Resumo por Espera
+       +--------------------------------------------------------------+
+	   |Espera do Orçamento   |  Receita Prevista  |   Despesa Fixada |
+	   |--------------------------------------------------------------|
+	   | Orçamento Fiscal     |           0,00     |         0,00     | 
+	   | Seguridade Social    |           0,00     |         0,00     | 
+	   | Investimentos        |           0,00     |         0,00     | 
+	   +--------------------------------------------------------------+
+
+
+	   
+	   

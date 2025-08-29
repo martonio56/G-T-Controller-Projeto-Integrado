@@ -1,0 +1,14 @@
+Task 1241
+- As colunas Projetos, Atividades, Operações Especiais e Total alinhar à direita.
+- Tipo de orçamento Seguridade Social não está incluindo a função 99 associado ao orçamento da seguridade social. Será necessário melhoria na ação.
+
+
+ 7) ANEXO VII Programa de Trabalho  
+      - O nome do relatório: 
+        ANEXO VII Programa de Trabalho (Lei 4320/1964, Portaria SOF Nº 8, de 04/02/1985) 
+        Demonstrativo de Funções, Subfunções e Programa por Projetos e Atividades e Operações E
+
+        Quando o tipo for "0" exemplo 0.002 - Manutenção das Atividades o campo valor deve ser alocado na coluna Opereações Especiais.
+
+         O valores moedas devem ser alinhados à direita das colunas. 
+
