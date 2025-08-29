@@ -1,0 +1,10 @@
+update integrado_test.receitas_orcamentarias set contalike = CONCAT(substring(codigo, 1, 1),'%') where substring(codigo,1,1)<>'0';
+update integrado_test.receitas_orcamentarias set contalike = CONCAT(substring(codigo, 1, 2),'%') where substring(codigo,2,1)<>'0';
+update integrado_test.receitas_orcamentarias set contalike = CONCAT(substring(codigo, 1, 3),'%') where substring(codigo,3,1)<>'0';
+update integrado_test.receitas_orcamentarias set contalike = CONCAT(substring(codigo, 1, 4),'%') where substring(codigo,4,1)<>'0';
+update integrado_test.receitas_orcamentarias set contalike = CONCAT(substring(codigo, 1, 6),'%') where substring(codigo,5,2)<>'00';
+update integrado_test.receitas_orcamentarias set contalike = CONCAT(substring(codigo, 1, 7),'%') where substring(codigo,7,1)<>'0';
+update integrado_test.receitas_orcamentarias set contalike = CONCAT(substring(codigo, 1, 8),'%') where substring(codigo,8,1)<>'0';
+update integrado_test.receitas_orcamentarias set contalike = CONCAT(substring(codigo, 1, 10),'%') where substring(codigo,9,2)<>'00';
+update integrado_test.receitas_orcamentarias set contalike = CONCAT(substring(codigo, 1, 12),'%') where substring(codigo,11,2)<>'00';
+update integrado_test.receitas_orcamentarias set contalike = CONCAT(substring(codigo, 1, 14),'%') where substring(codigo,13,2)<>'00';

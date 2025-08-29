@@ -1,0 +1,5 @@
+INSERT INTO receitas_orcamentarias (codigo,nome, tipo,cliente_id,exercicio_id,receita,calculo,receita_origem_id,descricao,created_by_type,created_by) values ('9000000000000000','Deduções da Receita','S',2,1,0,0,null,'','tecnico',7);
+INSERT INTO receitas_orcamentarias (codigo,nome, tipo,cliente_id,exercicio_id,receita,calculo,receita_origem_id,descricao,created_by_type,created_by) values ('9500000000000000','Deduções do FUNDEB','S',2,1,0,0,null,'','tecnico',7);
+INSERT INTO receitas_orcamentarias (codigo,nome, tipo,cliente_id,exercicio_id,receita,calculo,receita_origem_id,descricao,created_by_type,created_by) values ('9510000000000000','Receitas Correntes','S',2,1,0,0,null,'','tecnico',7);
+INSERT INTO receitas_orcamentarias (codigo,nome, tipo,cliente_id,exercicio_id,receita,calculo,receita_origem_id,descricao,created_by_type,created_by) values ('9900000000000000','Outras Deduções da Receita','S',2,1,0,0,null,'','tecnico',7);
+INSERT INTO receitas_orcamentarias (codigo,nome, tipo,cliente_id,exercicio_id,receita,calculo,receita_origem_id,descricao,created_by_type,created_by) values ('9910000000000000','Receitas Correntes','S',2,1,0,0,null,'','tecnico',7);
