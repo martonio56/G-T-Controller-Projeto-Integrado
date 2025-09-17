@@ -19,7 +19,7 @@ SELECT (
 	AND a3.codigo IN ('08','09','10','99')
 ) seguridade, 
 (
-	SELECT COALESCE(SUM(a1.valor),0.00) 
+	SELECT COALESCE(SUM(a1.valor),0.00) acoes
 	FROM despesas_fixadas a1
 	JOIN acoes a2 ON a2.id = a1.acao_id
 	JOIN funcoes a3 ON a3.id = a2.funcao_id 
