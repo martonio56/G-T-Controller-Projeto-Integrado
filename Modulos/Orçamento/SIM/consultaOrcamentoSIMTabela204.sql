@@ -13,13 +13,7 @@ select
        a3.codigo codigoElementoDespesa,
        a7.codigo codigoGrupoFonte,
        a6.codigo especificacaoFonte,
-       (select coalesce(sum(b1.valor)) from despesas_fixadas b1
-        where b1.cliente_id = a1.cliente_id 
-		  and b1.exercicio_id = a1.exercicio_id
-          and b1.acao_id = a1.acao_id
-          and b1.despesa_orcamentaria_id = a1.despesa_orcamentaria_id
-          and b1.fonte_recurso_id = a1.fonte_recurso_id
-       ) valorFixado
+       COALESCE(SUM(a1.valor),0) valorFixado
 from despesas_fixadas a1
 join acoes a2 on a2.id = a1.acao_id
 join despesas_orcamentarias a3 on a3.id = a1.despesa_orcamentaria_id
