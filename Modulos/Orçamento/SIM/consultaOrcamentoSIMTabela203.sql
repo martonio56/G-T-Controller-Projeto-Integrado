@@ -18,7 +18,7 @@ select
    a1.descricao descricaoProjetoAtividade,
    (select coalesce(sum(b1.valor)) from despesas_fixadas b1 
     where b1.cliente_id = a1.cliente_id and b1.exercicio_id = a1.exercicio_id and b1.acao_id = a1.id
-   ) valorTotalProjetoAtividade
+   ) valorTotalProjetoAtividade, '00' obejtoPublicoAlvo, '00' extensaoBeneficiosOuRecursos
 from acoes a1
 join clientes a2 on a2.id = a1.cliente_id
 join cidades a3 on a3.id = a2.cidade_id
