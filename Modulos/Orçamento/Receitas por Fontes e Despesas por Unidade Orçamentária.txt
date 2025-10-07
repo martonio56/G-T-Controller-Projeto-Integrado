@@ -1,7 +1,0 @@
-Task 879
-- A soma da receita não está correta. 
-  total previsto = 1000 + 2000 + 7000 + 8000 - 9000
-	 
-- Resumo por esfera soma incorreta.
-- Ajustar cabeçalho - tipo de orçamento somente do lado direito. 
-- Remover R$ do valor

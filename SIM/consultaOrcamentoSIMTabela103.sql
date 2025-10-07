@@ -1,6 +1,6 @@
 SELECT '103' tipoDocumento, a3.codigo_tce codigoMunicipio, CONCAT(a4.codigo,'00') exercicioOrcamento, a1.codigo codigoOrgao, 
 a7.codigo tipoUnidadeAdministrativa, a1.nome nomeOrgao, a6.cnpj cnpjOrgao, a8.endereco enderecoOrgao, a8.cep cepOrgao, 
-a8.telefone telefoneOrgao, a8.telefone faxOrgao, a8.email emailOrgao, a1.id)
+a8.telefone telefoneOrgao, a8.telefone faxOrgao, a8.email emailOrgao, a1.id
 FROM orgaos a1
 JOIN clientes a2 ON a2.id = a1.cliente_id
 JOIN cidades a3 ON a3.id = a2.cidade_id

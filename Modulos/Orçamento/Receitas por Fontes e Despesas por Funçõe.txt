@@ -1,3 +1,0 @@
-Task
-
-- Tipo de orçamento Seguridade Social não está incluindo a função 99 associado ao orçamento da seguridade social. Será necessário melhoria na ação.

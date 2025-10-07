@@ -8,7 +8,7 @@ SELECT '101' tipoDocumento, a3.codigo_tce codigoMunicipio, CONCAT(a7.codigo,'00'
  END ordernadorDespesa
 FROM portarias a1 
 JOIN pessoas a2 ON a2.id = a1.pessoa_id
-JOIN cidades a3 ON a3.id = a2.cidade_idareas_tipos
+JOIN cidades a3 ON a3.id = a2.cidade_id
 JOIN portarias_orgaos a4 ON a4.portaria_id = a1.id
 JOIN orgaos a5 ON a5.id = a4.orgao_id
 JOIN unidades_orcamentarias a6 ON a6.orgao_id = a5.id
